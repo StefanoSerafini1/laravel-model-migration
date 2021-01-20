@@ -17,4 +17,16 @@
             </li>
         @endforeach
     </ul>
+{{-- sezione bike con vue --}}
+
+    <div id="app">
+        <h2>Our Bikes</h2>
+        <ul>
+            <li v-for="bike in bikes">
+                <h2>@{{bike.modello}}</h2>
+                <p>@{{bike.marca}}</p>
+                <p>@{{bike.targa}}</p>
+            </li> 
+        </ul>   
+    </div>
 @endsection
