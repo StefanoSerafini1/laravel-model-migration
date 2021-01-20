@@ -15,6 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index')->name('homepage');
 
-// NUOVA ROTTA
-
+//new route
 Route::get('/store', 'CarController@store')->name('store-car');
