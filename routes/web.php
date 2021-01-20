@@ -17,3 +17,5 @@ Route::get('/', 'HomeController@index')->name('homepage');
 
 //new route
 Route::get('/store', 'CarController@store')->name('store-car');
+//new route bike
+Route::get('/bike', 'BikeController@adding')->name('adding-bike');
